@@ -1,0 +1,28 @@
+{
+  "radius_voxels": 3,
+  "seed": 0,
+  "input_events": 11,
+  "assembled": 11,
+  "released": 11,
+  "retained": 0,
+  "pending": 0,
+  "breach_time_s": 1301,
+  "breach_reason": "capacity_failure_threshold",
+  "first_three_fully_inside_s": 1294,
+  "max_fully_inside": 5,
+  "first_release_s": 1301.0319470346794,
+  "delayed_attempts": 0,
+  "membrane_versions": 10,
+  "added_volume_voxels": 126,
+  "final_pore_voxels": 950,
+  "move_stats": {
+    "proposed": 11311589,
+    "accepted": 10982786,
+    "membrane_rejected": 78970,
+    "collision_rejected": 40550,
+    "bounds_rejected": 202460,
+    "reentry_rejected": 6823
+  },
+  "snapshot_audit_frames": 245,
+  "snapshot_violations": 0
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "molecule_id": 1,
+    "scheduled_s": 1238,
+    "actual_s": 1238,
+    "added_volume_voxels": 17,
+    "new_contact_voxels": 15
+  },
+  {
+    "molecule_id": 2,
+    "scheduled_s": 1239,
+    "actual_s": 1239,
+    "added_volume_voxels": 0,
+    "new_contact_voxels": 0
+  },
+  {
+    "molecule_id": 3,
+    "scheduled_s": 1294,
+    "actual_s": 1294,
+    "added_volume_voxels": 17,
+    "new_contact_voxels": 15
+  },
+  {
+    "molecule_id": 4,
+    "scheduled_s": 1301,
+    "actual_s": 1301,
+    "added_volume_voxels": 17,
+    "new_contact_voxels": 15
+  },
+  {
+    "molecule_id": 5,
+    "scheduled_s": 1303,
+    "actual_s": 1303,
+    "added_volume_voxels": 17,
+    "new_contact_voxels": 15
+  },
+  {
+    "molecule_id": 6,
+    "scheduled_s": 1304,
+    "actual_s": 1304,
+    "added_volume_voxels": 0,
+    "new_contact_voxels": 0
+  },
+  {
+    "molecule_id": 7,
+    "scheduled_s": 1307,
+    "actual_s": 1307,
+    "added_volume_voxels": 17,
+    "new_contact_voxels": 15
+  },
+  {
+    "molecule_id": 8,
+    "scheduled_s": 1312,
+    "actual_s": 1312,
+    "added_volume_voxels": 17,
+    "new_contact_voxels": 15
+  },
+  {
+    "molecule_id": 9,
+    "scheduled_s": 1320,
+    "actual_s": 1320,
+    "added_volume_voxels": 7,
+    "new_contact_voxels": 12
+  },
+  {
+    "molecule_id": 10,
+    "scheduled_s": 1322,
+    "actual_s": 1322,
+    "added_volume_voxels": 7,
+    "new_contact_voxels": 12
+  },
+  {
+    "molecule_id": 11,
+    "scheduled_s": 1323,
+    "actual_s": 1323,
+    "added_volume_voxels": 10,
+    "new_contact_voxels": 16
+  }
+]

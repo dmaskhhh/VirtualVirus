@@ -1,0 +1,12 @@
+locus,gene,annotation_product,translation_weight,packaging_copies,TX_events,TL_events
+MpP1p01,orf1,DNA polymerase,1.0,0,75,219
+MpP1p02,orf2,P38,3.0,19,83,901
+MpP1p03,orf3,P46,4.0,13,71,520
+MpP1p04,orf4,P10,1.0,34,85,689
+MpP1p05,orf5,P10.2,1.0,30,100,1070
+MpP1p06,orf6,P23,1.8,19,84,780
+MpP1p07,orf7,P81,6.0,11,62,477
+MpP1p08,orf8,P46,2.5,14,52,449
+MpP1p09,orf9,P38.4,1.0,15,71,399
+MpP1p10,orf10,P38.8,1.0,14,94,443
+MpP1p11,orf11,P10.1,1.3,31,81,838

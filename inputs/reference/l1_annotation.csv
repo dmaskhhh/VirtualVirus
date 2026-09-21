@@ -1,0 +1,5 @@
+virus,accession,cds_index,locus_tag,gene,product,location,nt_length,aa_length,transl_table,translation_source,nt_A,nt_C,nt_G,nt_T,aa_ALA,aa_CYS,aa_ASP,aa_GLU,aa_PHE,aa_GLY,aa_HIS,aa_ILE,aa_LYS,aa_LEU,aa_MET,aa_ASN,aa_PRO,aa_GLN,aa_ARG,aa_SER,aa_THR,aa_VAL,aa_TRP,aa_TYR
+L1-like,NC_001341.1,1,L1_4,,hypothetical protein,"join(3785..4491,1..94)",801,266,11,genbank_translation,309,160,131,201,15,3,7,13,15,14,6,26,29,28,4,16,9,16,11,13,13,11,3,14
+L1-like,NC_001341.1,2,L1_1,,hypothetical protein,701..1009,309,102,11,genbank_translation,129,53,43,84,2,2,4,5,2,3,6,12,4,7,5,15,0,6,4,8,5,3,1,8
+L1-like,NC_001341.1,3,L1_2,,hypothetical protein,1494..1985,492,163,11,genbank_translation,202,97,67,126,8,0,4,1,3,8,4,17,13,9,4,7,3,19,2,14,22,7,1,17
+L1-like,NC_001341.1,4,L1_3,,hypothetical protein,3021..3605,585,194,11,genbank_translation,217,96,81,191,7,1,4,3,17,5,5,27,18,26,6,8,1,8,8,14,10,9,5,12
