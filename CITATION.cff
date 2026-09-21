@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when available."
+type: software
+title: "VirtualVirus"
+version: "0.1.0"
+date-released: "2026-09-22"
+url: "https://github.com/dmaskhhh/VirtualVirus"
+repository-code: "https://github.com/dmaskhhh/VirtualVirus"
+authors:
+  - family-names: "Sun"
+    given-names: "Weize"
+  - family-names: "Tang"
+    given-names: "Yong"
+  - family-names: "Qiu"
+    given-names: "Mingyue"
+  - family-names: "Li"
+    given-names: "Jintao"
+  - family-names: "Luo"
+    given-names: "Fei"
+  - family-names: "Dou"
+    given-names: "Ce"
+abstract: "Research code for computational viral molecular programs and conditional finite-size particle assembly and exit in a spatial minimal-cell framework."
+keywords:
+  - computational biology
+  - spatial modeling
+  - reproducibility
