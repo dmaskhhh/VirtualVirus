@@ -1035,7 +1035,7 @@ def write_t8_vmd_render_assets(
     )
     tcl.write_text(
         """# VMD render script for Phase7 r12 T8 topology-consuming packaging smoke.
-# Boundary: computational biology visualization only; not microscopy, not wet-lab evidence, not natural infection evidence.
+# Visualization of simulated states; not microscopy or evidence of natural infection.
 set here [file dirname [info script]]
 set outdir [file join $here frames]
 file mkdir $outdir
@@ -1126,7 +1126,7 @@ Frames:
 - 10 s: structural component pools reach the T6/T7 stoichiometry gate.
 - 15 s: complete topology object is consumed and one packaged genome / virion readout is produced.
 
-Boundary: computational biology visualization only; not microscopy, not wet-lab evidence, and not natural infection evidence.
+Visualization of simulated states; not microscopy or evidence of natural infection.
 """,
         encoding="utf-8",
     )
@@ -1268,7 +1268,7 @@ def run_t8_topology_packaging_smoke(args) -> None:
 
     sim_properties = {
         "phase": "Phase7-r12-T8",
-        "boundary": "Pure computational biology visualization/model; no wet-lab work, no human-related content, future open source; not real observed structure or infection evidence.",
+        "boundary": "Visualization of simulated states; not an observed structure or evidence of natural infection.",
         "run_id": str(args.runId),
         "duration_s": int(args.duration),
         "initial_genomes": int(args.initialGenomes),
