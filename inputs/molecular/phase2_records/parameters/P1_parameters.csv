@@ -1,0 +1,23 @@
+parameter,value,unit,virus,process,evidence_level,source,confidence,notes
+accession_refseq,NC_002515.1,id,P1-like,sequence,sequence_derived,NC_002515.1,high,Local RefSeq archive.
+genome_type,linear dsDNA,category,P1-like,sequence,sequence_derived,NC_002515.1,high,From reference record and Phase2 classification.
+genome_length,11660,nt,P1-like,replication,sequence_derived,NC_002515.1,high,Full FASTA length.
+cds_count,11,count,P1-like,translation,sequence_derived,NC_002515.1,high,GenBank CDS feature count.
+coding_nt_total,10770,nt,P1-like,transcription,sequence_derived,NC_002515.1,high,Sum of CDS nucleotide lengths.
+amino_acid_total,3579,aa,P1-like,translation,sequence_derived,NC_002515.1,high,Sum of translated CDS amino acids.
+GTP_translation_per_full_program,7158,molecules,P1-like,translation,sequence_derived,NC_002515.1,medium,Proxy uses 2 GTP per amino acid.
+genome_A_count,4270,nt,P1-like,replication,sequence_derived,NC_002515.1,high,Reference-strand accounting proxy.
+genome_C_count,1490,nt,P1-like,replication,sequence_derived,NC_002515.1,high,Reference-strand accounting proxy.
+genome_G_count,1634,nt,P1-like,replication,sequence_derived,NC_002515.1,high,Reference-strand accounting proxy.
+genome_T_count,4266,nt,P1-like,replication,sequence_derived,NC_002515.1,high,Reference-strand accounting proxy.
+coding_ATP_mRNA_count,4351,nt,P1-like,transcription,sequence_derived,NC_002515.1,high,CDS transcript accounting proxy.
+coding_CTP_mRNA_count,1304,nt,P1-like,transcription,sequence_derived,NC_002515.1,high,CDS transcript accounting proxy.
+coding_GTP_mRNA_count,1541,nt,P1-like,transcription,sequence_derived,NC_002515.1,high,CDS transcript accounting proxy.
+coding_UTP_mRNA_count,3574,nt,P1-like,transcription,sequence_derived,NC_002515.1,high,CDS transcript accounting proxy.
+replication_rate_s,0.003,proxy,P1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+transcription_rate_s,0.018,proxy,P1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+translation_rate_s,0.014,proxy,P1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+assembly_rate_s,0.02,proxy,P1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+lysis_threshold,8.0,proxy,P1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+membrane_weight,0.05,proxy,P1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+host_evidence,Mycoplasmopsis pulmonis; not JCVI-syn3A/M. mycoides,text,P1-like,host_range,literature_record,NC_002515.1,high,Not direct JCVI-syn3A infection evidence.

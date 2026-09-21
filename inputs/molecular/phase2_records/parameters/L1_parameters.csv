@@ -1,0 +1,23 @@
+parameter,value,unit,virus,process,evidence_level,source,confidence,notes
+accession_refseq,NC_001341.1,id,L1-like,sequence,sequence_derived,NC_001341.1,high,Local RefSeq archive.
+genome_type,circular ssDNA,category,L1-like,sequence,sequence_derived,NC_001341.1,high,From reference record and Phase2 classification.
+genome_length,4491,nt,L1-like,replication,sequence_derived,NC_001341.1,high,Full FASTA length.
+cds_count,4,count,L1-like,translation,sequence_derived,NC_001341.1,high,GenBank CDS feature count.
+coding_nt_total,2187,nt,L1-like,transcription,sequence_derived,NC_001341.1,high,Sum of CDS nucleotide lengths.
+amino_acid_total,725,aa,L1-like,translation,sequence_derived,NC_001341.1,high,Sum of translated CDS amino acids.
+GTP_translation_per_full_program,1450,molecules,L1-like,translation,sequence_derived,NC_001341.1,medium,Proxy uses 2 GTP per amino acid.
+genome_A_count,1791,nt,L1-like,replication,sequence_derived,NC_001341.1,high,Reference-strand accounting proxy.
+genome_C_count,790,nt,L1-like,replication,sequence_derived,NC_001341.1,high,Reference-strand accounting proxy.
+genome_G_count,705,nt,L1-like,replication,sequence_derived,NC_001341.1,high,Reference-strand accounting proxy.
+genome_T_count,1205,nt,L1-like,replication,sequence_derived,NC_001341.1,high,Reference-strand accounting proxy.
+coding_ATP_mRNA_count,857,nt,L1-like,transcription,sequence_derived,NC_001341.1,high,CDS transcript accounting proxy.
+coding_CTP_mRNA_count,406,nt,L1-like,transcription,sequence_derived,NC_001341.1,high,CDS transcript accounting proxy.
+coding_GTP_mRNA_count,322,nt,L1-like,transcription,sequence_derived,NC_001341.1,high,CDS transcript accounting proxy.
+coding_UTP_mRNA_count,602,nt,L1-like,transcription,sequence_derived,NC_001341.1,high,CDS transcript accounting proxy.
+replication_rate_s,0.00035,proxy,L1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+transcription_rate_s,0.002,proxy,L1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+translation_rate_s,0.0018,proxy,L1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+assembly_rate_s,0.003,proxy,L1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+lysis_threshold,999.0,proxy,L1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+membrane_weight,0.1,proxy,L1-like,lifecycle,assumption,Phase2 model default,low,Tuned only to separate acute/chronic/latent archetype trajectories.
+host_evidence,Acholeplasma laidlawii; archetype only,text,L1-like,host_range,literature_record,NC_001341.1,high,Not direct JCVI-syn3A infection evidence.
