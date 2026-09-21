@@ -1,0 +1,45 @@
+{
+  "angles": 1164,
+  "atoms": 1166,
+  "beads_per_genome": 1166,
+  "bonds": 1165,
+  "bp_per_bead": 10,
+  "btree_circular_replication_used": false,
+  "chain_trial_limit": 2500,
+  "counts_mapping_forbidden": true,
+  "genome": {
+    "accession": "NC_002515.1",
+    "description": "Mycoplasma phage P1, complete genome",
+    "length_bp": 11660,
+    "molecule_type": "DNA",
+    "sha256": "011962710e2672c6397c15400b49445eeae30631f2c853d422d9c0f09d1ff946",
+    "topology": "linear"
+  },
+  "guide_filament_forbidden": true,
+  "initial_genomes": 1,
+  "lammps_status": "not_run",
+  "next_required_gate": "Inject these topology particles into the RDME lattice/hook before enabling P1 replication, packaging, and membrane breach readouts. Old r11 cannot be resumed.",
+  "outputs": {
+    "cds_mapping_csv": "p1_cds_to_linear_dna_beads.csv",
+    "lammps_data": "p1_linear_dna.data",
+    "lammps_input": "in.p1_linear_dna_lammps",
+    "particles_csv": "p1_linear_dna_particles.csv",
+    "rdme_initial_particles_json": "p1_rdme_initial_particles.json",
+    "rdme_lattice_occupancy": "p1_linear_dna_rdme_lattice_occupancy.npy",
+    "topology_state_npz": "p1_linear_dna_topology_state.npz"
+  },
+  "placement_attempts": 20,
+  "proxy_forbidden": true,
+  "rdme_lattice_shape": [
+    64,
+    64,
+    128
+  ],
+  "rdme_lattice_spacing_nm": 10,
+  "reason": "P1 GenBank topology is linear; circular Syn3A tools are not accepted for P1 substrate generation.",
+  "run_id": "r12_p1_linear_topology_g1",
+  "sc_chain_generation_used": false,
+  "standard": "Cell-style RDME lattice plus explicit DNA topology adapter",
+  "terminal_closure_bond": false,
+  "release_note": "Historical one-genome fixture; original lammps_status is not_run. No relaxation has been run or validated in this release. Output paths are original basenames; only manifest, particles CSV, CDS mapping CSV and topology state NPZ are distributed."
+}
