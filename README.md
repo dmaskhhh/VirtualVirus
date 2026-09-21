@@ -4,8 +4,6 @@ Research code accompanying *Constructing Virtual Viruses in A Spatial Minimal Ce
 
 VirtualVirus connects annotation-defined viral molecular programs in a JCVI-syn3A-based spatial model to finite-size particle assembly and exit. This compact release includes the P1/L1 molecular extensions, selected reference tables, and a runnable P1 spatial continuation from archived placement events and geometry.
 
-This project concerns computational biology and visualization only. It includes no wet-laboratory procedures or human-related research.
-
 ## Quick start
 
 Use Python 3.11 on Linux or WSL. From the repository root:
