@@ -1,0 +1,3 @@
+virus,accession,fasta_header,genbank_organism,genbank_host,genome_type,sequence_length_bp,expected_length_bp,length_pass,cds_count,expected_cds,cds_count_pass,coding_nt_total,aa_total,A,C,G,T,GC_fraction
+P1-like,NC_002515.1,">NC_002515.1 Mycoplasma phage P1, complete genome",Mycoplasma phage P1,Mycoplasmopsis pulmonis,linear dsDNA,11660,11660,True,11,11,True,10770,3579,4270,1490,1634,4266,0.2679245283018868
+L1-like,NC_001341.1,">NC_001341.1 Acholeplasma phage MV-L1, complete genome",Acholeplasma phage MV-L51,Acholeplasma laidlawii,circular ssDNA,4491,4491,True,4,4,True,2187,725,1791,790,705,1205,0.33288799821865955
