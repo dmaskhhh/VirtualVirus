@@ -1,7 +1,5 @@
 # Molecular extension source
 
-Computational biology and visualization only; no wet-lab or human-subject work.
-
 The five scripts in `src/molecular/` preserve the current P1/L1 molecular extension logic, separated from the external whole-cell host. This is a source extension package with checked input preparation. It is not a validated reconstruction of the historical production trajectory.
 
 ## Contents and inputs
